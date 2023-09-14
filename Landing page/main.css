@@ -1,0 +1,74 @@
+body {
+    background-color: bisque;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul{
+        position: absolute;
+        top:65%;
+        left: 55%;
+        border-radius:50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        
+    }
+    /* designing the text*/
+    li{
+    box-shadow:10px 7px 7px black;
+    border-radius:20px;
+    border-size:20px solid red;
+        list-style: none;
+        font-size: 4em;
+        letter-spacing: 5.5cqb;
+        transition: 1s;
+        text-align: center;
+    }
+    /*creating the ghost effect*/
+    li:hover{
+        filter: blur(70px);
+        opacity: 0;
+    }
+    li:nth-child(1){
+        animation-delay: 0.1s;
+    }
+    li:nth-child(2){
+        animation-delay: 0.2s;
+    }
+    li:nth-child(3){
+        animation-delay: 0.3s;
+    }
+    li:nth-child(4){
+        animation-delay: 0.4s;
+    }
+    li:nth-child(5){
+        animation-delay: 0.5s;
+    }
+    img {
+    padding:50%;
+    }
+    a {
+    font-size:50px;
+    align-items:center;
+    color:red;
+    background-color:black;
+    padding:35px;
+    border-radius:30px;
+    top:75%;
+    right:75%;
+    text-decoration-color:black;
+    box-shadow:7px 10px 10px 0 red,10px 10px 5px 0 black,7px 15px 10px darkgray;
+    }
+    a:hover{
+        transform:scale(1:1);
+
+    }
+    marquee {
+    color:brown;
+    font-size:55px;
+    }
+    marquee:hover{
+        color:black;
+    }
